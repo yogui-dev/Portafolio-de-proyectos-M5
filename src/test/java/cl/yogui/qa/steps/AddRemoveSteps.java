@@ -12,7 +12,7 @@ public class AddRemoveSteps {
     // Instancia de la página de Add/Remove Elements
     private final AddRemovePage addRemovePage = new AddRemovePage(); // Crea la página con utilidades base
 
-    @Given("I am on the add/remove elements page")
+    @Given("I am on the add-remove elements page")
     public void iAmOnAddRemovePage() { // Abre la página objetivo
         addRemovePage.open(); // Navega a /add_remove_elements/
     }
